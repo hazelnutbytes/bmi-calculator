@@ -1,16 +1,53 @@
-# React + Vite
+# BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/21b23f4d-e023-4c60-af9c-fe069762ade7" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A simple BMI Calculator built with React and Tailwind CSS.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Calculates BMI
+* Shows category (Underweight, Normal, Overweight, Obese)
+* Displays ideal weight range
+* Indicates if you are above or below the ideal range
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Formula
+
+```
+BMI = weight (kg) / height² (m²)
+```
+
+---
+
+## Tech Stack
+
+* React
+* Tailwind CSS
+* JavaScript
+
+---
+
+## Run Locally
+
+```
+npm install
+npm run dev
+```
+
+---
+
+## Note
+
+BMI is a general estimate and may not be accurate for everyone.
+
+---
+
+## Author
+
+Hazel
+https://github.com/hazelnutbytes
